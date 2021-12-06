@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Montserrat:wght@100&family=Raleway:wght@200&display=swap');
+:root{
+    --nord0: #2e3440;
+    --nord1: #3B4252;
+    --nord2: #434C5E;
+    --nord3: #4C566A;
+    --nord4: #D8DEE9;
+    --nord5: #E5E9F0;
+    --nord6: #ECEFF4;
+    --nord7: #8FBCBB;
+    --nord8: #88C0D0;
+    --nord9: #81A1C1;
+    --nord10: #5E81AC;
+    --nord11: #BF616A;
+    --nord12: #D08770;
+    --nord13: #EBCB8B;
+    --nord14: #A3BE8C;
+    --nord15: #B48EAD;
+}
+
+body{
+    color: var(--nord0);
+    background-color: var(--nord4);
+}
+
+aside{
+    margin-left: 10%;
+    width: 60%;
+}
+
+header{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+img{
+    width: 250px;
+    height: 300px;
+    padding: 1%;
+    background-color: var(--nord11);
+}
+
+h1{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: var(--nord0);
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#header{
+    font-family: 'Baloo Bhaijaan 2', 'Monserrat', 'Raleway', sans-serif;
+    width: 85%;
+    background-image: url(Banner.png);
+    background-repeat: no-repeat;
+    background-color: var(--nord12);
+    display: flex;
+}
