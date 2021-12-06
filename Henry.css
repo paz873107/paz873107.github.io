@@ -1,4 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Montserrat:wght@100&family=Raleway:wght@200&display=swap');
+
+@media screen and (max-width: 700px){    
+    aside{
+        margin-left: 0.5%;
+        width: 35%;
+    }
+    
+    header,section{
+        width: 50%;
+        margin: 0 auto;
+        display: flex;
+    }
+    img{
+        width: 30%;
+        height: 20%;
+    }
+}
+
+@media screen and (max-width: 670px){    
+    aside{
+        margin-left: 0.5%;
+        width: 25%;
+    }
+    
+    header{
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+    }
+    img{
+        display: none;
+    }
+}
+
 :root{
     --nord0: #2e3440;
     --nord1: #3B4252;
