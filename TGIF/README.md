@@ -1,0 +1,3 @@
+Last step working for TGIF: this time I was asked to improve the js functions to implement all of them using a single js file and to get live data to fill the tables. In order to do that, the requirement was to use VUE, fetch and promises. Some changes were added to the style of the web page.
+
+Última parte del trabajo para TGIF: esta vez se me pidió que mejore las funciones de js para poder implementarlas todas dentro de un único archivo js, y obtener datos en vivo para llenar las tablas. Para lograrlo, el requerimiento fue que usase VUE, fetch y promesas. Algunos cambios fueron añadidos al estilo de la página.
