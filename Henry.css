@@ -87,6 +87,25 @@ p{
     margin-bottom: 2%;
 }
 
+.English, .Español{
+    margin-left: 100%; 
+    margin-top: 3%;
+    font-family: 'Baloo Bhaijaan 2', 'Monserrat', 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    width: 80px;
+    height: 30px;
+    border: solid 1px var(--nord3);
+}
+
+.English{
+    background-color:var(--nord15);
+}
+
+.Español{
+    background-color:var(--nord14);
+}
+
 #header{
     font-family: 'Baloo Bhaijaan 2', 'Monserrat', 'Raleway', sans-serif;
     width: 85%;
@@ -94,4 +113,8 @@ p{
     background-repeat: no-repeat;
     background-color: var(--nord12);
     display: flex;
+}
+
+#English{
+    display:none;
 }

@@ -61,9 +61,11 @@
     --nord14: #A3BE8C;
     --nord15: #B48EAD;
 }
-/**{
-    outline: 1px solid var(--nord10);
-}*/
+
+*, ::after, ::before {
+    box-sizing: unset; 
+}
+
 body{
     color: var(--nord0);
     background-color: var(--nord4);
@@ -143,6 +145,25 @@ a, a:link, a:visited{
     margin-bottom: 4%;
 }
 
+.English, .Español{
+    margin-left: 95%; 
+    margin-top: 3%;
+    font-family: 'Baloo Bhaijaan 2', 'Monserrat', 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    width: 70px;
+    height: 30px;
+    border: solid 1px var(--nord3);
+}
+
+.English{
+    background-color:var(--nord15);
+}
+
+.Español{
+    background-color:var(--nord14);
+}
+
 #header{
     font-family: 'Baloo Bhaijaan 2', 'Monserrat', 'Raleway', sans-serif;
     width: 90%;
@@ -150,3 +171,8 @@ a, a:link, a:visited{
     background-repeat: no-repeat;
     background-color: var(--nord12);
 }
+
+#English{
+    display:none;
+}
+
