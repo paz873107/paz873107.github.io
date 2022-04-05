@@ -1,0 +1,33 @@
+:root{
+
+}
+
+.container{
+
+}
+
+.NoFace{
+
+    & .face{
+
+        & .eyes-container{
+
+            & .eye-container{
+
+                & .top-mark{
+
+                }
+                & .eye{
+
+                }
+                & .eyebag{
+
+                }
+                & .bottom-mark{
+
+                }
+            }
+        }
+    }
+
+}
