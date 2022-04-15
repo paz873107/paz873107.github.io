@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+body {
+  position:relative;
+  z-index: 1;
+  background-color: linen;
+  font-family: 'Raleway', sans-serif;;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  height: 100%;  
+  opacity: .1; 
+  z-index: -1;
+  background-image: url(https://garden.spoonflower.com/c/10546805/p/f/l/KsAjI3hK4mDsh2u_k6OYObCuTckAG8L3Lphju9DrTMA8UOaz5rZOlpA/Red%20Drum%20Set.jpg);
+}
+
+p {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 800;
+}
+
+ul {
+  list-style-type: square;
+}
+
+li {
+  margin: 16px 0;
+  font-size: 20px;
+  display: list-item;
+  text-align: justify;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+h4 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+#title {
+    font-size: 50px;
+    text-align: center;
+}
+
+#image {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-caption {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+}
