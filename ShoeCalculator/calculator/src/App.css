@@ -1,0 +1,128 @@
+
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+
+body{
+  background: linear-gradient(to right, #BF616A, #B48EAD, #5E81AC, #8FBCBB);
+}
+
+h1, h2{
+  text-align: center;
+}
+
+.App{
+  height: 100vh;
+  width:100%;
+}
+
+.calculator-grid{
+  min-height: 55vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(5, 100px);
+  grid-template-rows:  minmax(80px, auto) repeat(6, 85px);
+}
+
+.shoe-grid{
+  min-height: 25vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(3, 105px);
+  grid-template-rows: minmax(80px, auto) repeat(5, 90px);
+}
+
+.calculator-grid > button{
+  border-radius: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+  border: 1px solid #D8DEE9;
+  outline: none;
+  background-color: #fafafa75;
+  margin: 3px;
+}
+
+.shoe-grid > button{
+  border-radius: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+  border: 1px solid #D8DEE9;
+  outline: none;
+  margin: 3px;
+}
+
+.calculator-grid > button:hover{
+  background-color: #fafafa;
+}
+
+.span-two{
+  grid-column: span 2;
+}
+
+.output-area{
+  grid-column: 1/-1;
+  margin-bottom: .5rem;
+  margin-top: 1rem;
+  background-color: white;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-direction: column;
+  border-radius: 1rem;
+  padding: 10px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.output-area .previous-operand{
+  color: #000000;
+  font-size: 1.5rem;
+}
+
+.output-area .current-operand{
+  color: #f78e79;
+  font-size: 2.5rem;
+}
+
+.Abiel{
+  background-image: url(../public/images/Abiel.png);
+}
+
+.Hary{
+  background-image: url(../public/images/Hary.png);
+}
+
+.Lara{
+  background-image: url(../public/images/Lara.png);
+}
+
+.Lulu{
+  background-image: url(../public/images/Lulu.png);
+}
+
+.Maldivas{
+  background-image: url(../public/images/Maldivas.png);
+}
+
+.Muna{
+  background-image: url(../public/images/Muna.png);
+}
+
+.Rey{
+  background-image: url(../public/images/Rey.png);
+}
+
+.Sorreto{
+  background-image: url(../public/images/Sorreto.png);
+}
+
+.Xuxa{
+  background-image: url(../public/images/Xuxa.jpg);
+}
+
