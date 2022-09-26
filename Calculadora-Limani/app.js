@@ -19,7 +19,7 @@ function calculate(){
     }
 
     if(buttonText === "DEL"){
-        output.textContent = output.textContent.substr(0,output.textContent.length-1);
+        output.textContent = output.textContent.slice(0, -1);
         return;
     }
 
