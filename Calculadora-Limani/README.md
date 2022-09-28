@@ -14,3 +14,5 @@ And, to be honest, I told myself: it's such an embarrasment that a software deve
 That's how this calculator project born: from my desire of solving common people everyday issues, even with a really simple code.
 
 PLOT TWIST: My boyfriend, besides being a shoemaker, is also a colorblind person. So the idea is to include a functionality to change the chosen colors for the app, increasing contrast among them to make the overall look of it more friendly to his eyes.
+
+To develop this project I used pure HTML, CSS and JS, without any libraries or frameworks. I hope you enjoy my work as much as I enjoyed doing it!
