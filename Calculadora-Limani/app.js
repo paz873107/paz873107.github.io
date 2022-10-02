@@ -35,5 +35,5 @@ function calculate(){
         output.textContent += buttonText;
         return;
     }
-
 }
+

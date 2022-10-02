@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +7,7 @@
 }
 
 body {
-    height: 100vh;
+    max-height: 100vh;
     background: linear-gradient(to right,#BF616A, #B48EAD,#5E81AC);
     display: flex;
     justify-content: center;
@@ -13,6 +15,7 @@ body {
 }
 
 .calculator {
+    position: relative;
     width: 35%;
     border-radius: 25px;
     border: 0.5px solid #333333;
@@ -21,12 +24,13 @@ body {
     -moz-box-shadow: 10px 11px 20px -6px rgba(0,0,0,0.74);
     overflow: hidden;
     text-align: right;
+    margin-top: 30px;
 }
 
 .display{
     width: 100%;
     height: 20vh;
-    background: black;
+    background: #333;
     color: white;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
@@ -53,7 +57,10 @@ body {
 
 .output {
     font-size: 22px;
-    padding: 25px;
+    padding-top: 60px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
 }
 
 .result {
@@ -104,7 +111,8 @@ body {
 
 button {
     border: none;
-    background: white;
+    background: black;
+    color: white;
     padding: 1.6rem;
     font-size: 22px;
     cursor: pointer;
